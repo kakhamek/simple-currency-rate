@@ -1,0 +1,75 @@
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-size: .85rem;
+  width: 350px;
+  color: rgb(100 116 139);
+  background-color: rgb(30 41 59);
+}
+
+a {
+  color: lightgray;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 5px;
+}
+
+
+.container {
+  padding: 10px;
+}
+
+
+.rates {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.foot {
+  font-size: .75rem;
+  text-align: center;
+  padding-top: 3px;
+}
+
+table {
+  width: 100%;
+  white-space: nowrap; 
+  table-layout: fixed;
+  border-collapse: collapse !important;
+  border: none !important;
+}
+
+table tr td {
+  color: #ffffff;
+  background-color: rgb(51 65 85);
+  padding: 10px;
+}
+
+table tr:nth-child(even) td {
+  background-color: rgb(71 85 105);
+}
+
+table tr td:first-child {
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+table tr td:nth-child(2) {
+  width: 60px; 
+  text-align:right;
+}
+
+table tr td small{
+  color: rgb(124, 144, 172);;
+  font-weight: normal;
+}
+
+.down {
+  color: rgb(250, 24, 16);
+}
+
+.up {
+  color: #1fad1f;
+}
